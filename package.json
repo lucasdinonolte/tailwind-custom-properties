@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-custom-properties",
+  "version": "0.0.1",
+  "description": "A PostCSS Plugin that turns your tailwind configuration into custom properties",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest test/ --coverage --collectCoverageFrom=./src/*.js"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Lucas Nolte <hello@lucas-nolte.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "postcss": "^8.4.0"
+  },"devDependencies": {
+    "jest": "^27.5.1",
+    "postcss": "^8.4.6"
+  }
+}
